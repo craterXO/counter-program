@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Program</title>
+    <script src="index.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center items-center mt-[100px]">
+      <h1 class="text-[50px]">Counter Program</h1>
+      <span id="counter" class="text-[100px] text-center">0</span>
+      <div class="flex flex-row justify-center items-center gap-2 mt-6">
+        <button
+          id="increase"
+          class="flex justify-center items-center border-none border-black rounded-xl p-6 hover:bg-sky-700 bg-sky-600 w-auto h-[10px]"
+        >
+          <span class="text-[24px] text-white">increase</span>
+        </button>
+        <button
+          id="reset"
+          class="flex justify-center items-center border-none border-black rounded-xl p-6 hover:bg-sky-700 bg-sky-600 w-auto h-[10px]"
+        >
+          <span class="text-[24px] text-white">reset</span>
+        </button>
+        <button
+          id="decrease"
+          class="flex justify-center items-center border-none border-black rounded-xl p-6 hover:bg-sky-700 bg-sky-600 w-auto h-[10px]"
+        >
+          <span class="text-[24px] text-white">decrease</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
